@@ -12,7 +12,6 @@ const buildHTML = (XHR) => {
   return html;
 };
 
-
 function post (){
   const form = document.getElementById("form");
   form.addEventListener("submit", (e) => {
